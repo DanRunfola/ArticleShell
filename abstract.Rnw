@@ -1,0 +1,4 @@
+\section{Abstract}
+Placeholder
+
+\textbf{Keywords}: SIMEX, Spatial Uncertainty, Spatial Data Integration, Simulation\\

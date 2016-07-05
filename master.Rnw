@@ -1,0 +1,54 @@
+\documentclass{article}
+%Package for Authors on Title Page
+\usepackage{authblk}
+
+%Double Spacing Package
+\usepackage{setspace}
+
+%Authors and Affiliations
+\author[1]{Daniel Runfola}
+\author[1]{Rob Marty}
+\author[1]{Seth Goodman}
+\author[1]{Michael LeFew}
+\affil[1]{Institute for the Theory and Practice of International Relations, The College of William and Mary}
+\renewcommand\Authands{ and }
+
+%Title
+\title{geoSIMEX: A Novel Approach To Modeling Spatial Uncertainty Across Datasets With Multiple Resolutions}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+%-------------------------------------
+%-------------------------------------
+%Paper Sections 
+%-------------------------------------
+%-------------------------------------
+
+%Title Page (title.Rnw)
+\SweaveInput{title}
+\newpage
+
+%Toggle spacing for document
+\doublespacing
+
+%Abstract (abstract.Rnw)
+\SweaveInput{abstract}
+\newpage
+
+%Introduction
+\SweaveInput{introduction}
+
+%Data and Methods
+\SweaveInput{dataMethods}
+
+%Results
+\SweaveInput{results}
+
+%Discussion
+\SweaveInput{discussion}
+
+%Conclusion
+\SweaveInput{conclusion}
+
+\end{document}
